@@ -1,12 +1,15 @@
-// WAP TO CHECK ABSOLUTE VALUE OF A NUMBER USING C PROGRAM.
+// WAP TO FIND THE ABSOLUTE VALUE OF A NUMBER ENTERED THROUGHT THE KEYBOARD.
+
 #include <stdio.h>
 int main(){
-    int n;
-    printf("Enter number:");
-    scanf("%d",&n);
-    if(n<0){
-        n=-n;
+    int num;
+    printf("Enter the value of num:");
+    scanf("%d",&num);
+    if(num>-num){
+        printf("It is absolute value");
     }
-    printf("Absolute value =%d",n);
+    else {
+        printf("It is not absolute value");
+    }
     return 0;
 }
